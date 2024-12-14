@@ -21,6 +21,8 @@ typechain
 *.ap_
 *.aab
 
+.nextt
+
 # Files for the ART/Dalvik VM
 *.dex
 

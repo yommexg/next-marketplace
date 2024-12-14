@@ -111,8 +111,7 @@ export default function NFTBox({
 
   return (
     <div>
-      <div>
-        <p onClick={async () => console.log(imageURI)}> OKKKKKK</p>
+      <div className="mx-4">
         {imageURI ? (
           <div>
             <UpdateListingModal
@@ -148,7 +147,7 @@ export default function NFTBox({
             </Card>
           </div>
         ) : (
-          <div>Loading...</div>
+          <div>Wrong Network...</div>
         )}
       </div>
     </div>
